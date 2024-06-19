@@ -208,3 +208,12 @@ service vendor.audioadsprpcd_audiopd /vendor/bin/audioadsprpcd audiopd
     user media
     group media
     setenv ADSP_LIBRARY_PATH ";/system/lib/rfsa/adsp;/system/vendor/lib/rfsa/adsp;/dsp;/vendor/dsp;/odm/lib/rfsa/adsp;/vendor/lib/rfsa/adsp"
+
+on property:gsm.version.baseband=*
+    start set_baseband
+
+service set_baseband /product/bin/init.set_baseband.sh
+    class late_start
+    user system
+    group system
+    oneshot

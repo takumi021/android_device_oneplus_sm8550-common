@@ -103,3 +103,11 @@ sh_binary {
     src: "init.qcom.sh",
     vendor: true,
 }
+
+sh_binary {
+    name: "init.set_baseband.sh",
+    src: "init.set_baseband.sh",
+    vendor: true,
+}
+
+
