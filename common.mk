@@ -263,6 +263,7 @@ PRODUCT_PACKAGES += \
     init.qcom.usb.sh \
     init.qti.kernel.rc \
     init.target.rc \
+    init.set_baseband.sh \
     ueventd.oplus.rc \
     ueventd.qcom.rc
 
