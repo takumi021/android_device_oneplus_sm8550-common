@@ -150,6 +150,7 @@ PRODUCT_PACKAGES += \
     libqdMetaData.system \
     libsdmcore \
     libsdmutils \
+    libui.vendor \
     vendor.display.config@1.0 \
     vendor.display.config@1.11.vendor \
     vendor.display.config@2.0 \
