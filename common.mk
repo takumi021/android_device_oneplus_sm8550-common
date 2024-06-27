@@ -383,6 +383,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     libprotobuf-cpp-full-3.9.1-vendorcompat
 
+# QC common
+TARGET_COMMON_QTI_COMPONENTS := \
+    alarm
+
 # QMI
 PRODUCT_PACKAGES += \
     libcurl.vendor \
