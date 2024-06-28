@@ -385,7 +385,8 @@ PRODUCT_PACKAGES += \
 
 # QC common
 TARGET_COMMON_QTI_COMPONENTS := \
-    alarm
+    alarm \
+    av
 
 # QMI
 PRODUCT_PACKAGES += \
